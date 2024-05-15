@@ -1,0 +1,22 @@
+.pipeBlockage {
+    margin-top: 50px;
+}
+.pipeBlockage__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.pipeBlockage__left {
+}
+.pipeBlockage__img {
+    width: 100%;
+    height: 100%;
+}
+.pipeBlockage__right {
+}
+.pipeBlockage__title {
+    @include h2Title;
+}
+.pipeBlockage__txt {
+    line-height: 20px;
+}
