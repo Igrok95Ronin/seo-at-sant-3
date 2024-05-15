@@ -1,0 +1,11 @@
+.impressum {
+}
+.impressum__box {
+}
+.impressum__txt {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.impressum__title {
+    @include h2Title
+}
