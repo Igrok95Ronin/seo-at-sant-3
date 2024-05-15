@@ -1,0 +1,35 @@
+.service24 {
+    margin-top: 50px;
+}
+.service24__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.service24__left {
+}
+.service24__title {
+    @include h2Title;
+}
+.service24__txt {
+    line-height: 20px;
+}
+.service24__right {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.service24__img-wrapper {
+    max-width: 100%;
+    max-height: 100%;
+}
+.service24__img {
+    width: 123px;
+    height: 108px;
+}
+.service24__btn-wrapper {
+}
+.service24__btn {
+    @include btn;
+}
