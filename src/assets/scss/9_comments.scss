@@ -1,0 +1,28 @@
+.comments {
+    margin-top: 50px;
+}
+.comments__title {
+    @include h2Title;
+}
+.comments__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.comments__inner {
+    display: flex;
+    flex-direction: column;gap: 40px;
+}
+.comments__name {
+    font-weight: 700;
+    position: relative;
+    &::before{
+        content: '⭐️⭐️⭐️⭐️⭐️';
+        position: absolute;
+        left: 0;
+        bottom: -25px;
+    }
+}
+.comments__txt {
+    line-height: 20px;
+}

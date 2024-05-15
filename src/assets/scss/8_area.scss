@@ -1,0 +1,20 @@
+.area {
+    margin-top: 50px;
+}
+.area__box {
+}
+.area__title {
+    @include h2Title;
+}
+.area__txt {
+    line-height: 20px;
+}
+.area__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.area__subTitle {
+    font-weight: 700;
+    font-size: clamp(18px, 4vw, 20px);
+}
